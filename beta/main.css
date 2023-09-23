@@ -1,0 +1,113 @@
+/* Importa a fonte "Inter" do Google Fonts com várias espessuras de fonte */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Inter', sans-serif; /* Define a fonte para todo o corpo da página */
+    margin: 0; /* Remove margens padrão do corpo */
+    padding: 0; /* Remove preenchimento padrão do corpo */
+    color: #023047; /* Define a cor do texto */
+}
+
+/* Estilos para a classe "page" */
+.page {
+    display: flex; /* Define um contêiner flexível para alinhar conteúdo verticalmente e horizontalmente */
+    flex-direction: column; /* Alinha os elementos em coluna dentro do contêiner flexível */
+    align-items: center; /* Centraliza os itens horizontalmente */
+    align-content: center;
+    justify-content: center; /* Centraliza os itens verticalmente */
+    width: 100%; /* Largura total da página */
+    height: 100vh; /* Altura da página igual à altura da viewport */
+    background-color: #828fff; /* Cor de fundo da página */
+}
+
+/* Estilos para a classe "formLogin" */
+.formLogin {
+    display: flex; /* Define um contêiner flexível para o formulário de login */
+    flex-direction: column; /* Alinha os elementos em coluna dentro do contêiner flexível */
+    background-color: #fff; /* Cor de fundo do formulário */
+    border-radius: 7px; /* Borda arredondada do formulário */
+    padding: 40px; /* Preenchimento interno do formulário */
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4); /* Sombra do formulário */
+    gap: 5px; /* Espaçamento entre elementos filhos */
+}
+
+/* Estilos para a classe "areaLogin" (presumivelmente um contêiner de imagem) */
+.areaLogin img {
+    width: 420px; /* Largura da imagem */
+}
+
+/* Estilos para o título dentro do formulário */
+.formLogin h1 {
+    padding: 0;
+    margin: 0;
+    font-weight: 500;
+    font-size: 2.3em; /* Tamanho da fonte do título */
+	 /* Centralizar verticalmente e horizontalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Estilos para parágrafos dentro do formulário */
+.formLogin p {
+    display: inline-block;
+    font-size: 14px; /* Tamanho da fonte do parágrafo */
+    color: #666; /* Cor do texto do parágrafo */
+    margin-bottom: 25px; /* Espaçamento inferior do parágrafo */
+}
+
+/* Estilos para campos de entrada de texto dentro do formulário */
+.formLogin input {
+    padding: 15px; /* Preenchimento interno do campo de entrada */
+    font-size: 14px; /* Tamanho da fonte do campo de entrada */
+    border: 1px solid #ccc; /* Borda do campo de entrada */
+    margin-bottom: 20px; /* Espaçamento inferior do campo de entrada */
+    margin-top: 5px; /* Espaçamento superior do campo de entrada */
+    border-radius: 4px; /* Borda arredondada do campo de entrada */
+    transition: all linear 160ms; /* Transição suave ao interagir com o campo */
+    outline: none; /* Remove a borda de foco padrão */
+}
+
+/* Estilos para campos de entrada de texto quando estão em foco */
+.formLogin input:focus {
+    border: 1px solid #0720f7; /* Borda do campo quando em foco */
+}
+
+/* Estilos para rótulos dos campos de entrada de texto */
+.formLogin label {
+    font-size: 14px; /* Tamanho da fonte do rótulo */
+    font-weight: 600; /* Peso da fonte do rótulo */
+}
+
+/* Estilos para links dentro do formulário */
+.formLogin a {
+    display: inline-block;
+    margin-bottom: 20px; /* Espaçamento inferior do link */
+    font-size: 13px; /* Tamanho da fonte do link */
+    color: #555; /* Cor do link */
+    transition: all linear 160ms; /* Transição suave ao interagir com o link */
+}
+
+/* Estilos para links quando estão em foco */
+.formLogin a:hover {
+    color: #001096; /* Cor do link quando em foco */
+}
+
+/* Estilos para botões */
+.btn {
+    background-color: #021cfa; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    font-size: 14px; /* Tamanho da fonte do botão */
+    font-weight: 600; /* Peso da fonte do botão */
+    border: none !important; /* Remove a borda do botão */
+    transition: all linear 160ms; /* Transição suave ao interagir com o botão */
+    cursor: pointer; /* Cursor do mouse ao passar sobre o botão */
+    margin: 15 !important; /* Remove margem do botão */
+}
+
+/* Estilos para botões quando estão em foco */
+.btn:hover {
+    transform: scale(1.05); /* Efeito de escala ao passar o mouse sobre o botão */
+    background-color: #001096; /* Cor de fundo do botão quando em foco */
+}
