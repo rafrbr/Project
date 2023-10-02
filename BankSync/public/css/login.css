@@ -1,0 +1,98 @@
+/* Estilo para a navbar */
+.custom-navbar {
+    background-color: #1e2a3a; /* Cor de fundo da barra de navegação (azul escuro) */
+    border-bottom: 2px solid #f8b739; /* Linha dourada na parte inferior */
+}
+
+.custom-navbar .navbar-brand {
+    color: #fff !important; /* Cor do texto do logotipo (branco) */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: #fff; /* Cor do ícone do botão de menu (branco) */
+}
+
+.custom-navbar .nav-link {
+    color: #fff !important; /* Cor dos links na barra de navegação (branco) */
+    font-weight: bold;
+    transition: color 0.3s ease; /* Transição suave da cor ao passar o mouse */
+}
+
+.custom-navbar .nav-link:hover {
+    color: #f8b739 !important; /* Cor dos links ao passar o mouse (amarelo dourado) */
+}
+
+/* Estilo para tornar a imagem do logotipo um círculo */
+.rounded-circle {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+/* Estilo para o texto do logotipo */
+.logo-text {
+    margin-left: 10px;
+}
+
+/* Estilo para o cartão de login */
+.custom-card {
+    background-color: #1e2a3a; /* Cor de fundo do cartão de login (azul escuro) */
+    color: #fff; /* Cor do texto no cartão (branco) */
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px 0px #000; /* Sombra suave */
+}
+
+.custom-card .card-title {
+    color: #f8b739; /* Cor do título do cartão (amarelo dourado) */
+}
+
+.custom-input {
+    background-color: #283d4a; /* Cor de fundo dos campos de entrada (azul mais escuro) */
+    color: #fff; /* Cor do texto nos campos de entrada (branco) */
+}
+
+.custom-link {
+    color: #f8b739 !important; /* Cor dos links no cartão (amarelo dourado) */
+    text-decoration: none; /* Removendo sublinhado dos links */
+}
+
+.custom-link:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse nos links */
+}
+
+/* Estilo para o botão de login */
+.btn-custom {
+    background-color: #f8b739; /* Cor de fundo do botão (amarelo dourado) */
+    color: #1e2a3a !important; /* Cor do texto no botão (azul escuro) */
+    border: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; /* Transição suave da cor de fundo */
+}
+
+.btn-custom:hover {
+    background-color: #e6a22c; /* Cor de fundo do botão ao passar o mouse (tom
+}
+.btn-custom:hover {
+    background-color: #e6a22c; /* Cor de fundo do botão ao passar o mouse (tom mais claro de amarelo) */
+}
+
+/* Estilo para alinhar verticalmente o conteúdo do cartão de login */
+.min-vh-100 {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+/* Estilo para o link "Esqueci minha senha" e "Criar Conta" */
+.custom-link {
+    color: #f8b739 !important; /* Cor dos links (amarelo dourado) */
+    text-decoration: none; /* Removendo sublinhado dos links */
+    margin-right: 10px; /* Espaçamento à direita entre os links (ajuste conforme necessário) */
+}
+
+.custom-link:hover {
+    text-decoration: underline; /* Adicionando sublinhado ao passar o mouse nos links */
+}

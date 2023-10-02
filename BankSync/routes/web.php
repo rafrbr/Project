@@ -1,9 +1,7 @@
 <?php
-
-use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
-use Illuminate\Support\Facades\Auth;
-use Inertia\Inertia;
+use App\Models\Financeiro;
+use App\Http\Controllers\FinanceiroControler;
 
 /*
 |--------------------------------------------------------------------------
@@ -11,30 +9,52 @@ use Inertia\Inertia;
 |--------------------------------------------------------------------------
 |
 | Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
+| routes are loaded by the RouteServiceProvider and all of them will
+| be assigned to the "web" middleware group. Make something great!
 |
 */
 
 Route::get('/', function () {
-    return Inertia::render('Welcome', [
-        'canLogin' => Route::has('login'),
-        'canRegister' => Route::has('register'),
-        'laravelVersion' => Application::VERSION,
-        'phpVersion' => PHP_VERSION,
-    ]);
-});
+    return view('index');
+})->name('index');
 
-Route::middleware([
-    'auth:sanctum',
-    config('jetstream.auth_session'),
-    'verified',
-])->group(function () {
-    Route::get('/dashboard', function () {
-        return Inertia::render('Dashboard');
-    })->name('dashboard');
-});
+Route::get('/login', function () {
+    return view('login');
+})->name('login');
 
-Auth::routes();
+Route::get('/criar_conta', function () {
+    return view('criar_conta');
+})->name('criar');
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/esqueci', function () {
+    return view('esqueci');
+})->name('esqueci');
+
+
+Route::get('/financeiro', [FinanceiroControler::class,'show'])->name('financeiro');
+
+Route::post('/financeiro', [FinanceiroControler::class,'addData']);
+
+Route::get('/delete/{id}', [FinanceiroControler::class,'remove']);
+
+Route::get('/receitas', function () {
+    return view('receitas');
+})->name('receitas');
+
+Route::get('/despesas', function () {
+    return view('despesas');
+})->name('despesas');
+
+Route::get('/relatorio', function () {
+    return view('relatorio');
+})->name('relatorio');
+
+Route::get('/configuracao', function () {
+    return view('configuracao');
+})->name('configuracao');
+
+
+
+
+
+
