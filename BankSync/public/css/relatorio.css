@@ -1,0 +1,42 @@
+/* Adicione aqui suas personalizações de estilo específicas para a página */
+
+.receitas-card, .despesas-card, .saldo-card {
+    margin-bottom: 20px;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.receitas-card:hover, .despesas-card:hover, .saldo-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.card-footer {
+    border-radius: 0 0 10px 10px;
+}
+
+.titulo-pagina {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+/* Cores personalizadas para os cartões */
+.receitas-card {
+    border: 2px solid #28a745;
+}
+
+.despesas-card {
+    border: 2px solid #dc3545;
+}
+
+.saldo-card {
+    border: 2px solid #ffc107;
+}
+
+
+
+
+
+
