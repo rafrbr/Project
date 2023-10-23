@@ -1,83 +1,62 @@
-/* Define o estilo para o corpo do documento */
 body {
-    font-family: Arial, sans-serif; /* Define a fonte padrão para o corpo do documento */
-    background-color: #828fff; /* Define a cor de fundo do corpo */
-    margin: 0; /* Remove margens padrão do corpo */
-    padding: 0; /* Remove preenchimento padrão do corpo */
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
 }
 
-/* Define o estilo para os cabeçalhos de nível 1 (h1) */
 h1 {
-    background-color: #001096; /* Define a cor de fundo para os cabeçalhos h1 */
-    color: #fff; /* Define a cor do texto dos cabeçalhos h1 */
-    text-align: center; /* Centraliza o texto dos cabeçalhos h1 */
-    padding: 10px; /* Adiciona preenchimento ao redor dos cabeçalhos h1 */
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
 }
 
-/* Define o estilo para os formulários */
 form {
-    text-align: center; /* Centraliza o texto nos formulários */
-    margin: 10px auto; /* Define margens automáticas para centralizar o formulário na página */
+    text-align: center;
+    margin: 20px auto;
 }
 
-/* Define o estilo para as etiquetas dos campos do formulário */
 label {
-    display: block; /* Faz com que as etiquetas sejam exibidas em blocos (uma abaixo da outra) */
-    margin-bottom: 10px; /* Adiciona espaço inferior entre as etiquetas */
+    display: block;
+    margin-bottom: 10px;
 }
 
-/* Define o estilo para as caixas de seleção (select) e campos de entrada numérica (input[type="number"]) */
 select, input[type="number"] {
-    width: 50%; /* Define a largura para ocupar 100% do contêiner pai */
-    padding: 10px; /* Adiciona preenchimento interno às caixas de seleção e campos de entrada numérica */
-    margin-bottom: 10px; /* Adiciona espaço inferior entre os elementos */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
 }
 
-/* Define o estilo para os botões */
+button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
 
-
-/* Define o estilo para os cabeçalhos de nível 2 (h2) */
 h2 {
-    text-align: center; /* Centraliza o texto dos cabeçalhos h2 */
-    margin-top: 10px; /* Adiciona espaço superior aos cabeçalhos h2 */
+    text-align: center;
+    margin-top: 20px;
 }
 
-/* Define o estilo para as tabelas */
-/* Define o estilo para as tabelas */
 table {
-    width: 50%; /* Define a largura da tabela em 50% do contêiner pai */
-    margin: 0 auto; /* Centraliza a tabela horizontalmente */
-    border-collapse: collapse; /* Colapsa as bordas das células da tabela */
-    border: 2px solid black; /* Adiciona uma borda preta de 2 pixels ao redor da tabela */
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
 }
 
-/* Define o estilo para as células de cabeçalho (th) e células de dados (td) */
 th, td {
-    padding: 10px; /* Adiciona preenchimento interno às células */
-    text-align: center; /* Centraliza o texto nas células */
+    padding: 10px;
+    text-align: center;
 }
 
-/* Define o estilo para as células de cabeçalho (th) */
 th {
-    background-color: #001096; /* Define a cor de fundo das células de cabeçalho */
-    color: #fff; /* Define a cor do texto das células de cabeçalho */
+    background-color: #333;
+    color: #fff;
 }
 
-.btn {
-    background-color: #021cfa; /* Cor de fundo do botão */
-    color: #fff; /* Cor do texto do botão */
-    font-size: 60px; /* Tamanho da fonte do botão */
-    font-weight: 600; /* Peso da fonte do botão */
-    border: none !important; /* Remove a borda do botão */
-    transition: all linear 160ms; /* Transição suave ao interagir com o botão */
-    cursor: pointer; /* Cursor do mouse ao passar sobre o botão */
-    margin: 0 !important; /* Remove margem do botão */
-}
-/* Define o estilo para as linhas pares da tabela */
 tr:nth-child(even) {
-    background-color: #fff; /* Define a cor de fundo das linhas pares */
+    background-color: #f2f2f2;
 }
-/* Estilos para botões quando estão em foco */
-.btn:hover {
-    transform: scale(1.05); /* Efeito de escala ao passar o mouse sobre o botão */
-    background-color: #001096; /* Cor de fundo do botão quando em foco */

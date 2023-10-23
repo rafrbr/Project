@@ -18,3 +18,4 @@ if (isset($_POST['tipo']) && isset($_POST['valor']) && isset($_POST['categoria']
 // Redireciona de volta para a página inicial
 header("Location: consulta.php");
 ?>
+
