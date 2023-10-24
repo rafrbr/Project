@@ -7,18 +7,9 @@
     },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
-<<<<<<< HEAD
         "axios": "^1.1.2",
         "bootstrap": "^5.2.3",
         "laravel-vite-plugin": "^0.8.0",
-=======
-        "@vitejs/plugin-react": "^2.2.0",
-        "axios": "^1.1.2",
-        "bootstrap": "^5.2.3",
-        "laravel-vite-plugin": "^0.8.0",
-        "react": "^18.2.0",
-        "react-dom": "^18.2.0",
->>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         "sass": "^1.56.1",
         "vite": "^4.0.0"
     }

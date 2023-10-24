@@ -7,11 +7,8 @@
     "require": {
         "php": "^8.1",
         "guzzlehttp/guzzle": "^7.2",
-<<<<<<< HEAD
-=======
-        "laravel/fortify": "^1.18",
->>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         "laravel/framework": "^10.10",
+        "laravel/jetstream": "^4.0",
         "laravel/sanctum": "^3.2",
         "laravel/tinker": "^2.8",
         "laravel/ui": "^4.2"
