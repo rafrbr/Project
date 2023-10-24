@@ -4,7 +4,11 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
+<<<<<<< HEAD
     "content-hash": "e0ce5353653ac4aa921859375d213f73",
+=======
+    "content-hash": "bed20a7c4749940e09f464914456f7cf",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
     "packages": [
         {
             "name": "brick/math",
@@ -971,6 +975,7 @@
             "time": "2023-08-27T10:19:19+00:00"
         },
         {
+<<<<<<< HEAD
             "name": "laravel/framework",
             "version": "v10.28.0",
             "source": {
@@ -982,6 +987,218 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/framework/zipball/09137f50f715c1efc649788a26092dcb1ec4ab6e",
                 "reference": "09137f50f715c1efc649788a26092dcb1ec4ab6e",
+=======
+            "name": "jaybizzle/crawler-detect",
+            "version": "v1.2.116",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JayBizzle/Crawler-Detect.git",
+                "reference": "97e9fe30219e60092e107651abb379a38b342921"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JayBizzle/Crawler-Detect/zipball/97e9fe30219e60092e107651abb379a38b342921",
+                "reference": "97e9fe30219e60092e107651abb379a38b342921",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8|^5.5|^6.5|^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Jaybizzle\\CrawlerDetect\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mark Beech",
+                    "email": "m@rkbee.ch",
+                    "role": "Developer"
+                }
+            ],
+            "description": "CrawlerDetect is a PHP class for detecting bots/crawlers/spiders via the user agent",
+            "homepage": "https://github.com/JayBizzle/Crawler-Detect/",
+            "keywords": [
+                "crawler",
+                "crawler detect",
+                "crawler detector",
+                "crawlerdetect",
+                "php crawler detect"
+            ],
+            "support": {
+                "issues": "https://github.com/JayBizzle/Crawler-Detect/issues",
+                "source": "https://github.com/JayBizzle/Crawler-Detect/tree/v1.2.116"
+            },
+            "time": "2023-07-21T15:49:49+00:00"
+        },
+        {
+            "name": "jenssegers/agent",
+            "version": "v2.6.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jenssegers/agent.git",
+                "reference": "daa11c43729510b3700bc34d414664966b03bffe"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jenssegers/agent/zipball/daa11c43729510b3700bc34d414664966b03bffe",
+                "reference": "daa11c43729510b3700bc34d414664966b03bffe",
+                "shasum": ""
+            },
+            "require": {
+                "jaybizzle/crawler-detect": "^1.2",
+                "mobiledetect/mobiledetectlib": "^2.7.6",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^5.0|^6.0|^7.0"
+            },
+            "suggest": {
+                "illuminate/support": "Required for laravel service providers"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "3.0-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Jenssegers\\Agent\\AgentServiceProvider"
+                    ],
+                    "aliases": {
+                        "Agent": "Jenssegers\\Agent\\Facades\\Agent"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Jenssegers\\Agent\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jens Segers",
+                    "homepage": "https://jenssegers.com"
+                }
+            ],
+            "description": "Desktop/mobile user agent parser with support for Laravel, based on Mobiledetect",
+            "homepage": "https://github.com/jenssegers/agent",
+            "keywords": [
+                "Agent",
+                "browser",
+                "desktop",
+                "laravel",
+                "mobile",
+                "platform",
+                "user agent",
+                "useragent"
+            ],
+            "support": {
+                "issues": "https://github.com/jenssegers/agent/issues",
+                "source": "https://github.com/jenssegers/agent/tree/v2.6.4"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/jenssegers",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/jenssegers/agent",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-06-13T08:05:20+00:00"
+        },
+        {
+            "name": "laravel/fortify",
+            "version": "v1.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/fortify.git",
+                "reference": "5af43d5cc10b70da20ddebdbe62e0dadd69c18e3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/fortify/zipball/5af43d5cc10b70da20ddebdbe62e0dadd69c18e3",
+                "reference": "5af43d5cc10b70da20ddebdbe62e0dadd69c18e3",
+                "shasum": ""
+            },
+            "require": {
+                "bacon/bacon-qr-code": "^2.0",
+                "ext-json": "*",
+                "illuminate/support": "^8.82|^9.0|^10.0",
+                "php": "^7.3|^8.0",
+                "pragmarx/google2fa": "^7.0|^8.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^6.0|^7.0|^8.0",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Fortify\\FortifyServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Fortify\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Backend controllers and scaffolding for Laravel authentication.",
+            "keywords": [
+                "auth",
+                "laravel"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/fortify/issues",
+                "source": "https://github.com/laravel/fortify"
+            },
+            "time": "2023-09-12T11:19:24+00:00"
+        },
+        {
+            "name": "laravel/framework",
+            "version": "v10.25.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/framework.git",
+                "reference": "5132dafecbea5825af7cb4d093d4d7df57aecb61"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/5132dafecbea5825af7cb4d093d4d7df57aecb61",
+                "reference": "5132dafecbea5825af7cb4d093d4d7df57aecb61",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "shasum": ""
             },
             "require": {
@@ -1168,6 +1385,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
+<<<<<<< HEAD
             "time": "2023-10-10T13:01:37+00:00"
         },
         {
@@ -1182,6 +1400,91 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/prompts/zipball/cce65a90e64712909ea1adc033e1d88de8455ffd",
                 "reference": "cce65a90e64712909ea1adc033e1d88de8455ffd",
+=======
+            "time": "2023-09-26T15:22:05+00:00"
+        },
+        {
+            "name": "laravel/jetstream",
+            "version": "v4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/jetstream.git",
+                "reference": "793b3d8cc43063d878e3d08df04a9e831763a466"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/jetstream/zipball/793b3d8cc43063d878e3d08df04a9e831763a466",
+                "reference": "793b3d8cc43063d878e3d08df04a9e831763a466",
+                "shasum": ""
+            },
+            "require": {
+                "ext-json": "*",
+                "illuminate/console": "^10.17",
+                "illuminate/support": "^10.17",
+                "jenssegers/agent": "^2.6",
+                "laravel/fortify": "^1.15",
+                "php": "^8.1.0"
+            },
+            "require-dev": {
+                "inertiajs/inertia-laravel": "^0.6.5",
+                "laravel/sanctum": "^3.0",
+                "livewire/livewire": "^3.0",
+                "mockery/mockery": "^1.0",
+                "orchestra/testbench": "^8.11",
+                "phpstan/phpstan": "^1.10",
+                "phpunit/phpunit": "^9.3"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.x-dev"
+                },
+                "laravel": {
+                    "providers": [
+                        "Laravel\\Jetstream\\JetstreamServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Laravel\\Jetstream\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Taylor Otwell",
+                    "email": "taylor@laravel.com"
+                }
+            ],
+            "description": "Tailwind scaffolding for the Laravel framework.",
+            "keywords": [
+                "auth",
+                "laravel",
+                "tailwind"
+            ],
+            "support": {
+                "issues": "https://github.com/laravel/jetstream/issues",
+                "source": "https://github.com/laravel/jetstream"
+            },
+            "time": "2023-09-19T14:01:29+00:00"
+        },
+        {
+            "name": "laravel/prompts",
+            "version": "v0.1.9",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/prompts.git",
+                "reference": "b603410e7af1040aa2d29e0a2cdca570bb63e827"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/prompts/zipball/b603410e7af1040aa2d29e0a2cdca570bb63e827",
+                "reference": "b603410e7af1040aa2d29e0a2cdca570bb63e827",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "shasum": ""
             },
             "require": {
@@ -1223,9 +1526,15 @@
             ],
             "support": {
                 "issues": "https://github.com/laravel/prompts/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/laravel/prompts/tree/v0.1.11"
             },
             "time": "2023-10-03T01:07:35+00:00"
+=======
+                "source": "https://github.com/laravel/prompts/tree/v0.1.9"
+            },
+            "time": "2023-09-26T13:14:20+00:00"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         },
         {
             "name": "laravel/sanctum",
@@ -2864,6 +3173,7 @@
         },
         {
             "name": "psy/psysh",
+<<<<<<< HEAD
             "version": "v0.11.22",
             "source": {
                 "type": "git",
@@ -2874,6 +3184,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/bobthecow/psysh/zipball/128fa1b608be651999ed9789c95e6e2a31b5802b",
                 "reference": "128fa1b608be651999ed9789c95e6e2a31b5802b",
+=======
+            "version": "v0.11.21",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/bobthecow/psysh.git",
+                "reference": "bcb22101107f3bf770523b65630c9d547f60c540"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/bobthecow/psysh/zipball/bcb22101107f3bf770523b65630c9d547f60c540",
+                "reference": "bcb22101107f3bf770523b65630c9d547f60c540",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "shasum": ""
             },
             "require": {
@@ -2902,7 +3224,11 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
+<<<<<<< HEAD
                     "dev-0.11": "0.11.x-dev"
+=======
+                    "dev-main": "0.11.x-dev"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 },
                 "bamarni-bin": {
                     "bin-links": false,
@@ -2938,9 +3264,15 @@
             ],
             "support": {
                 "issues": "https://github.com/bobthecow/psysh/issues",
+<<<<<<< HEAD
                 "source": "https://github.com/bobthecow/psysh/tree/v0.11.22"
             },
             "time": "2023-10-14T21:56:36+00:00"
+=======
+                "source": "https://github.com/bobthecow/psysh/tree/v0.11.21"
+            },
+            "time": "2023-09-17T21:15:54+00:00"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         },
         {
             "name": "ralouphie/getallheaders",
@@ -5416,7 +5748,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-09-12T10:11:35+00:00"
+=======
+            "time": "2023-08-24T14:51:05+00:00"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         },
         {
             "name": "tijsverkoyen/css-to-inline-styles",
@@ -5881,6 +6217,7 @@
         },
         {
             "name": "laravel/pint",
+<<<<<<< HEAD
             "version": "v1.13.3",
             "source": {
                 "type": "git",
@@ -5891,6 +6228,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/laravel/pint/zipball/93b2d0d49719bc6e444ba21cd4dbbccec935413d",
                 "reference": "93b2d0d49719bc6e444ba21cd4dbbccec935413d",
+=======
+            "version": "v1.13.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/laravel/pint.git",
+                "reference": "bbb13460d7f8c5c0cd9a58109beedd79cd7331ff"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/laravel/pint/zipball/bbb13460d7f8c5c0cd9a58109beedd79cd7331ff",
+                "reference": "bbb13460d7f8c5c0cd9a58109beedd79cd7331ff",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "shasum": ""
             },
             "require": {
@@ -5901,7 +6250,11 @@
                 "php": "^8.1.0"
             },
             "require-dev": {
+<<<<<<< HEAD
                 "friendsofphp/php-cs-fixer": "^3.34.1",
+=======
+                "friendsofphp/php-cs-fixer": "^3.26.1",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "illuminate/view": "^10.23.1",
                 "laravel-zero/framework": "^10.1.2",
                 "mockery/mockery": "^1.6.6",
@@ -5943,7 +6296,11 @@
                 "issues": "https://github.com/laravel/pint/issues",
                 "source": "https://github.com/laravel/pint"
             },
+<<<<<<< HEAD
             "time": "2023-10-10T15:39:09+00:00"
+=======
+            "time": "2023-09-19T15:55:02+00:00"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         },
         {
             "name": "laravel/sail",
@@ -6156,6 +6513,7 @@
         },
         {
             "name": "nunomaduro/collision",
+<<<<<<< HEAD
             "version": "v7.10.0",
             "source": {
                 "type": "git",
@@ -6166,6 +6524,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/nunomaduro/collision/zipball/49ec67fa7b002712da8526678abd651c09f375b2",
                 "reference": "49ec67fa7b002712da8526678abd651c09f375b2",
+=======
+            "version": "v7.9.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nunomaduro/collision.git",
+                "reference": "296d0cf9fe462837ac0da8a568b56fc026b132da"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nunomaduro/collision/zipball/296d0cf9fe462837ac0da8a568b56fc026b132da",
+                "reference": "296d0cf9fe462837ac0da8a568b56fc026b132da",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "shasum": ""
             },
             "require": {
@@ -6173,6 +6543,7 @@
                 "nunomaduro/termwind": "^1.15.1",
                 "php": "^8.1.0",
                 "symfony/console": "^6.3.4"
+<<<<<<< HEAD
             },
             "conflict": {
                 "laravel/framework": ">=11.0.0"
@@ -6181,15 +6552,30 @@
                 "brianium/paratest": "^7.3.0",
                 "laravel/framework": "^10.28.0",
                 "laravel/pint": "^1.13.3",
+=======
+            },
+            "require-dev": {
+                "brianium/paratest": "^7.2.7",
+                "laravel/framework": "^10.23.1",
+                "laravel/pint": "^1.13.1",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "laravel/sail": "^1.25.0",
                 "laravel/sanctum": "^3.3.1",
                 "laravel/tinker": "^2.8.2",
                 "nunomaduro/larastan": "^2.6.4",
+<<<<<<< HEAD
                 "orchestra/testbench-core": "^8.13.0",
                 "pestphp/pest": "^2.23.2",
                 "phpunit/phpunit": "^10.4.1",
                 "sebastian/environment": "^6.0.1",
                 "spatie/laravel-ignition": "^2.3.1"
+=======
+                "orchestra/testbench-core": "^8.11.0",
+                "pestphp/pest": "^2.19.1",
+                "phpunit/phpunit": "^10.3.5",
+                "sebastian/environment": "^6.0.1",
+                "spatie/laravel-ignition": "^2.3.0"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
             },
             "type": "library",
             "extra": {
@@ -6248,7 +6634,11 @@
                     "type": "patreon"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-10-11T15:45:01+00:00"
+=======
+            "time": "2023-09-19T10:45:09+00:00"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         },
         {
             "name": "phar-io/manifest",
@@ -6363,6 +6753,7 @@
         },
         {
             "name": "phpunit/php-code-coverage",
+<<<<<<< HEAD
             "version": "10.1.7",
             "source": {
                 "type": "git",
@@ -6373,6 +6764,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/355324ca4980b8916c18b9db29f3ef484078f26e",
                 "reference": "355324ca4980b8916c18b9db29f3ef484078f26e",
+=======
+            "version": "10.1.6",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/php-code-coverage.git",
+                "reference": "56f33548fe522c8d82da7ff3824b42829d324364"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/php-code-coverage/zipball/56f33548fe522c8d82da7ff3824b42829d324364",
+                "reference": "56f33548fe522c8d82da7ff3824b42829d324364",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "shasum": ""
             },
             "require": {
@@ -6429,7 +6832,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/php-code-coverage/issues",
                 "security": "https://github.com/sebastianbergmann/php-code-coverage/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.7"
+=======
+                "source": "https://github.com/sebastianbergmann/php-code-coverage/tree/10.1.6"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
             },
             "funding": [
                 {
@@ -6437,7 +6844,11 @@
                     "type": "github"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-10-04T15:34:17+00:00"
+=======
+            "time": "2023-09-19T04:59:03+00:00"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -6684,6 +7095,7 @@
         },
         {
             "name": "phpunit/phpunit",
+<<<<<<< HEAD
             "version": "10.4.1",
             "source": {
                 "type": "git",
@@ -6694,6 +7106,18 @@
                 "type": "zip",
                 "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/62bd7af13d282deeb95650077d28ba3600ca321c",
                 "reference": "62bd7af13d282deeb95650077d28ba3600ca321c",
+=======
+            "version": "10.3.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sebastianbergmann/phpunit.git",
+                "reference": "747c3b2038f1139e3dcd9886a3f5a948648b7503"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/747c3b2038f1139e3dcd9886a3f5a948648b7503",
+                "reference": "747c3b2038f1139e3dcd9886a3f5a948648b7503",
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
                 "shasum": ""
             },
             "require": {
@@ -6765,7 +7189,11 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
+<<<<<<< HEAD
                 "source": "https://github.com/sebastianbergmann/phpunit/tree/10.4.1"
+=======
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/10.3.5"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
             },
             "funding": [
                 {
@@ -6781,7 +7209,11 @@
                     "type": "tidelift"
                 }
             ],
+<<<<<<< HEAD
             "time": "2023-10-08T05:01:11+00:00"
+=======
+            "time": "2023-09-19T05:42:37+00:00"
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
         },
         {
             "name": "sebastian/cli-parser",

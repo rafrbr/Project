@@ -1,0 +1,150 @@
+/* Estilo para a navbar */
+.navbar {
+    background-color: #1e2a3a;
+    /* Azul escuro */
+    border-bottom: 2px solid #f8b739;
+    /* Linha dourada na parte inferior */
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f8b739 !important;
+    /* Amarelo dourado */
+}
+
+/* Estilo para tornar a imagem do logotipo um círculo */
+.rounded-circle {
+    border-radius: 50%; /* Define o border-radius para 50% */
+    width: 50px; /* Define a largura desejada para a imagem */
+    height: 50px; /* Define a altura desejada para a imagem */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o texto do logotipo */
+.logo-text {
+    margin-left: 10px; /* Espaçamento à esquerda do texto (ajuste conforme necessário) */
+}
+
+
+
+
+/* Estilo para a seção de serviços */
+#services {
+    background-color: #1e2a3a;
+    /* Azul escuro */
+    color: #fff;
+    /* Texto branco */
+    padding: 60px 0;
+}
+
+#services h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    background-color: #2d3a4d;
+    /* Azul escuro mais escuro */
+    color: #fff;
+    /* Texto branco */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo para animação de fade-in */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Aplicar animação de fade-in a elementos com a classe .fade-in */
+.fade-in {
+    animation: fade-in 0.5s ease;
+}
+
+/* Estilo para o rodapé */
+.custom-footer {
+    background-color: #1e2a3a;
+    /* Cor de fundo */
+    padding: 30px 0;
+    /* Espaçamento interno superior e inferior */
+}
+
+/* Estilo para os links no rodapé */
+.custom-footer a {
+    color: #fff;
+    /* Cor dos links */
+    text-decoration: none;
+    /* Remover sublinhado */
+    transition: color 0.3s ease;
+    /* Transição de cor suave */
+}
+
+.custom-footer a:hover {
+    color: #f8b739;
+    /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo para os ícones no rodapé */
+.custom-footer i {
+    font-size: 24px;
+    /* Tamanho dos ícones */
+    margin-right: 10px;
+    /* Espaçamento à direita dos ícones */
+}
+
+/* Estilo para as animações de ícones no rodapé */
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.custom-footer i:hover {
+    animation: bounce 1s ease infinite;
+    /* Animação ao passar o mouse */
+}
