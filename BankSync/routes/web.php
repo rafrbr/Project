@@ -39,3 +39,9 @@ Route::middleware(['auth'])->group(function () {
     // Rotas CRUD para Despesas
     Route::resource('/despesas', DespesaController::class);
 });
+
+
+
+
+
+
