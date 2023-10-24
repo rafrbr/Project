@@ -1,0 +1,60 @@
+/* financeiro.css */
+
+/* Esquema de cores */
+body {
+    background-color: #f5f8fd;
+}
+
+/* Estilo dos títulos */
+h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+/* Estilize os botões */
+.btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+}
+
+/* Estilize os cartões */
+.card {
+    background-color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Adicione ícones ou imagens */
+.icon {
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+/* Estilize os elementos de Receitas e Despesas */
+.receitas {
+    color: #28a745;
+}
+
+.despesas {
+    color: #dc3545;
+}
+
+/* Estilize o Saldo com base no valor */
+.saldo {
+    font-weight: bold;
+}
+
+.saldo-positivo {
+    color: #28a745;
+}
+
+.saldo-negativo {
+    color: #dc3545;
+}

@@ -1,0 +1,238 @@
+/* Estilo para a navbar */
+.navbar {
+    background-color: #1e2a3a;
+    /* Azul escuro */
+    border-bottom: 2px solid #f8b739;
+    /* Linha dourada na parte inferior */
+}
+
+.navbar-brand {
+    color: #fff !important;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: #fff;
+}
+
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #f8b739 !important;
+    /* Amarelo dourado */
+}
+
+/* Estilo para tornar a imagem do logotipo um círculo */
+.rounded-circle {
+    border-radius: 50%; /* Define o border-radius para 50% */
+    width: 50px; /* Define a largura desejada para a imagem */
+    height: 50px; /* Define a altura desejada para a imagem */
+    object-fit: cover; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o texto do logotipo */
+.logo-text {
+    margin-left: 10px; /* Espaçamento à esquerda do texto (ajuste conforme necessário) */
+}
+
+/* Estilo para a seção de boas-vindas */
+.header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/background.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.header h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.header p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.header .btn {
+    font-weight: bold;
+    background-color: #f8b739;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.header .btn:hover {
+    background-color: #f6a618;
+}
+
+
+/* Estilo para a seção de serviços */
+#services {
+    background-color: #1e2a3a;
+    /* Azul escuro */
+    color: #fff;
+    /* Texto branco */
+    padding: 60px 0;
+}
+
+#services h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.service-card {
+    background-color: #2d3a4d;
+    /* Azul escuro mais escuro */
+    color: #fff;
+    /* Texto branco */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Estilo para animação de fade-in */
+@keyframes fade-in {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Aplicar animação de fade-in a elementos com a classe .fade-in */
+.fade-in {
+    animation: fade-in 0.5s ease;
+}
+
+/* Estilo para o rodapé */
+.custom-footer {
+    background-color: #1e2a3a;
+    /* Cor de fundo */
+    padding: 30px 0;
+    /* Espaçamento interno superior e inferior */
+}
+
+/* Estilo para os links no rodapé */
+.custom-footer a {
+    color: #fff;
+    /* Cor dos links */
+    text-decoration: none;
+    /* Remover sublinhado */
+    transition: color 0.3s ease;
+    /* Transição de cor suave */
+}
+
+.custom-footer a:hover {
+    color: #f8b739;
+    /* Cor dos links ao passar o mouse */
+}
+
+/* Estilo para os ícones no rodapé */
+.custom-footer i {
+    font-size: 24px;
+    /* Tamanho dos ícones */
+    margin-right: 10px;
+    /* Espaçamento à direita dos ícones */
+}
+
+/* Estilo para as animações de ícones no rodapé */
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-20px);
+    }
+
+    60% {
+        transform: translateY(-10px);
+    }
+}
+
+.custom-footer i:hover {
+    animation: bounce 1s ease infinite;
+    /* Animação ao passar o mouse */
+}
+
+/* Estilo para a seção de depoimentos */
+.testimonials {
+    background-color: #f8f9fa; /* Cor de fundo para a seção de depoimentos */
+    padding: 60px 0;
+}
+
+.testimonials h2 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.testimonial-card {
+    background-color: #fff; /* Cor de fundo dos cards de depoimento */
+    padding: 20px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+.testimonial-card img {
+    width: 100px; /* Largura da imagem do funcionário */
+    height: 100px; /* Altura da imagem do funcionário */
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover;
+    margin: 0 auto 10px;
+}
+
+.testimonial-text {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+}
+
+.testimonial-card h5 {
+    font-weight: bold;
+}
+
+/* Estilo para a seta de controle do carrossel */
+.carousel-control-prev, .carousel-control-next {
+    background-color: #1e2a3a; /* Cor de fundo das setas */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: #fff; /* Cor da seta */
+    border-radius: 50%; /* Torna a seta redonda */
+    font-size: 20px;
+    padding: 10px;
+}
+
+/* Estilo para a animação de rotação das setas do carrossel */
+.carousel-control-prev-icon:hover, .carousel-control-next-icon:hover {
+    transform: rotate(180deg); /* Gira a seta ao passar o mouse */
+}
+
+

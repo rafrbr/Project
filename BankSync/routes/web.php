@@ -1,9 +1,20 @@
 <?php
+<<<<<<< HEAD
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ReceitaController;
+use App\Http\Controllers\DespesaController;
+use App\Http\Controllers\BankSyncController;
+=======
 use Illuminate\Support\Facades\Route;
 use App\Models\Financeiro;
 use App\Http\Controllers\FinanceiroControler;
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017
 
-/*
+
+
+/*php
 |--------------------------------------------------------------------------
 | Web Routes
 |--------------------------------------------------------------------------
@@ -15,6 +26,33 @@ use App\Http\Controllers\FinanceiroControler;
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
+    return view('welcome');
+})->name('welcome');
+
+
+Auth::routes();
+
+Route::middleware(['auth'])->group(function () {
+    // Rota para exibir a página financeira
+    Route::get('/financeiro', [BankSyncController::class, 'index'])->name('financeiro.index');
+
+    // Rota para exibir a página de configuração
+    Route::get('/configuracao', [BankSyncController::class, 'configuracao'])->name('financeiro.configuracao');
+
+    // Rotas CRUD para Receitas
+    Route::resource('/receitas', ReceitaController::class);
+
+    // Rotas CRUD para Despesas
+    Route::resource('/despesas', DespesaController::class);
+});
+
+
+
+
+
+
+=======
     return view('index');
 })->name('index');
 
@@ -58,3 +96,4 @@ Route::get('/configuracao', function () {
 
 
 
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017

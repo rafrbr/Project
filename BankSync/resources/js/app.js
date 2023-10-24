@@ -5,6 +5,8 @@
  */
 
 import './bootstrap';
+<<<<<<< HEAD
+=======
 
 /**
  * Next, we will create a fresh React component instance and attach it to
@@ -13,3 +15,4 @@ import './bootstrap';
  */
 
 import './components/Example';
+>>>>>>> 75d47fce8b9471821f274c26e6223546892f4017

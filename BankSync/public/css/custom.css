@@ -1,0 +1,116 @@
+/* Estilo para a barra de navegação */
+.custom-navbar {
+    background-color: #1e2a3a; /* Cor de fundo da barra de navegação (azul escuro) */
+    border-bottom: 2px solid #f8b739; /* Linha dourada na parte inferior */
+}
+
+.custom-navbar .navbar-brand {
+    color: #fff !important; /* Cor do texto do logotipo (branco) */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.custom-navbar .navbar-toggler-icon {
+    background-color: #fff; /* Cor do ícone do botão de navegação (branco) */
+}
+
+.custom-navbar .nav-link {
+    color: #fff !important; /* Cor dos links (branco) */
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.custom-navbar .nav-link:hover {
+    color: #f8b739 !important; /* Cor dos links ao passar o mouse (amarelo dourado) */
+}
+
+/* Estilo para o formulário de login, esqueci a senha e redefinir senha */
+.formLogin {
+    margin-top: 30px;
+}
+
+.form-control {
+    border-radius: 25px;
+    padding: 15px;
+    font-size: 16px;
+}
+
+.btn-primary {
+    background-color: #f8b739; /* Cor de fundo do botão (amarelo dourado) */
+    border: none;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #e6a22c; /* Cor de fundo do botão ao passar o mouse (tom mais claro de amarelo) */
+}
+
+.custom-link {
+    color: #f8b739 !important; /* Cor dos links (amarelo dourado) */
+    text-decoration: none;
+}
+
+.custom-link:hover {
+    text-decoration: underline;
+}
+
+/* Adicione estas regras ao seu arquivo CSS personalizado (custom.css) */
+/* Ou adicione ao estilo <head> diretamente no arquivo HTML */
+
+/* Efeito de fade-in para os textos */
+.fade-in {
+    animation: fadeIn ease 0.5s;
+    -webkit-animation: fadeIn ease 0.5s;
+    -moz-animation: fadeIn ease 0.5s;
+    -o-animation: fadeIn ease 0.5s;
+    -ms-animation: fadeIn ease 0.5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-ms-keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}

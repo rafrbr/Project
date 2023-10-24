@@ -1,0 +1,20 @@
+/* Estilos específicos para a página de despesas */
+.pagina-despesas .list-group-item {
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+}
+
+.pagina-despesas .list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.pagina-despesas .list-group-item .badge {
+    font-size: 1.2rem;
+}
+
+.pagina-despesas .font-weight-bold {
+    font-weight: bold;
+}
